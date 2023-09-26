@@ -4,13 +4,15 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0;
+    font-family: "roboto", sans-serif;
 }
 
 .box {
-    width: 480px;
+    width: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 
 
 }
@@ -26,7 +28,26 @@ body {
 
 .three {
     background: #e5e7eb;
+    padding: 50px 150px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+    .quote {
+    font-size: 18px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 50;
+    }
+
+    .author {
+    font-weight: 700;
+    font-size: 14px;
+    color: #1f2937;
+    display: flex;
+    justify-content: end;
+    width: 400px;
+    }
 
 .four {
     background: white;
