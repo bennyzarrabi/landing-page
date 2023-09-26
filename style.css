@@ -11,7 +11,6 @@ body {
     width: 700px;
     display: flex;
     align-items: center;
-    justify-content: center;
     box-sizing: border-box;
 
 
@@ -19,8 +18,32 @@ body {
 
 .one {
     background: #1f2937;
-    color: white;
+    color: #f9faf8;
 }
+
+    .header {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 170px;
+    
+    }
+
+        .logo {
+            margin-left: 100px;
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .links {
+            margin-right: 100px;
+            font-size: 10px;
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
 
 .two {
     background: white;
