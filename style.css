@@ -1,3 +1,33 @@
 body {
     background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.box {
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.one {
+    background: #1f2937;
+    color: white;
+}
+
+.two {
+    background: white;
+}
+
+.three {
+    background: #e5e7eb;
+}
+
+.four {
+    background: white;
 }
