@@ -157,4 +157,45 @@ body {
 
 .four {
     background: white;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
 }
+
+    #box {
+        background-color: #3882f6;
+        color: #f9faf8;
+        border: 1px solid #3882f6;
+        border-radius: 5px;
+        width: 600px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        #box h2{
+            font-size: 14px;
+            margin: 5px;
+        }
+
+        #box p {
+            font-size: 10px;
+            margin: 5px;
+        }
+
+        #box button {
+            background-color: #3882f6;
+            border: solid #f9faf8 1px;
+            border-radius: 5px;
+            color: #f9faf8;
+            font-family: "roboto", sans-serif;
+            font-size: 10px;
+            font-weight: 700;
+            margin: auto;
+            padding: 5px 20px;
+        }
+
+        #box div {
+            margin-left: 50px;
+        }
