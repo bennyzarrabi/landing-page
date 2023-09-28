@@ -22,7 +22,7 @@ body {
     row-gap: 0px;
 }
 
-    .header {
+    .one .header {
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
@@ -54,7 +54,7 @@ body {
     }
 
         .title {
-            width: 250px;
+            width: 240px;
 
         }
 
@@ -81,7 +81,7 @@ body {
         .placeholder {
             font-size: 10px;
             background-color: grey;
-            height: 130px;
+            height: 150px;
             width: 300px;
             display: flex;
             justify-content: center;
