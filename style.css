@@ -9,11 +9,9 @@ body {
 }
 
 .box {
-    width: 700px;
+    width: 800px;
     display: flex;
     box-sizing: border-box;
-
-
 }
 
 .one {
@@ -21,7 +19,7 @@ body {
     color: #f9faf8;
     flex-wrap: wrap;
     height: 300px;
-
+    row-gap: 0px;
 }
 
     .header {
@@ -29,7 +27,7 @@ body {
         flex-wrap: nowrap;
         align-items: center;
         height: 34px;
-        width: 500px;
+        width: 600px;
         margin-left: 100px;
         justify-content: space-between;
     }
@@ -42,34 +40,52 @@ body {
         .links {
             font-size: 10px;
             display: flex;
-            gap: 10px;
+            gap: 15px;
         }
 
     .main {
         display: flex;
         align-items: center;
-        gap: 20px;
+        justify-content: space-between;
+        margin-left: 100px;
+        padding: 0%;
+        width: 600px;
+        height: 266px;
     }
 
         .title {
             width: 250px;
-            height: 150px;
+
         }
 
             .title h1 {
-
+                font-size: 28px;
+                margin: 0;
             }
 
             .title p {
-                
+                font-size: 10px;
             }
 
             .title button {
-                
+                background-color: #3882f6;
+                border: solid #3882f6 1px;
+                border-radius: 5px;
+                color: #f9faf8;
+                font-family: "roboto", sans-serif;
+                font-size: 10px;
+                font-weight: 700;
+                padding: 5px 20px;
             }
 
         .placeholder {
-
+            font-size: 10px;
+            background-color: grey;
+            height: 130px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
 
@@ -86,7 +102,7 @@ body {
 }
 
     .quote {
-    font-size: 18px;
+    font-size: 20px;
     color: #1f2937;
     font-style: italic;
     font-weight: 50;
@@ -98,7 +114,7 @@ body {
     color: #1f2937;
     display: flex;
     justify-content: end;
-    width: 400px;
+    width: 450px;
     }
 
 .four {
